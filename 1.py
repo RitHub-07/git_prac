@@ -13,7 +13,8 @@ tup=(2,1,2,3,4,2,6)
 print(tup.count(2))
 print(tup.index(3))'''
 
-std={
+# dictionary
+'''std={
   "name":"ritul",
   "age":20,
   "roll":10
@@ -40,4 +41,19 @@ def drive(self):
     print("drive")
 
 my_car=car("Toyoyta","Red")
-my_car.drive()    
+my_car.drive()''' 
+
+# intro using dictionary
+my_intro = {
+    "Name": "Ritul",
+    "Father's Name": "Vipin Kumar",
+    "Class": "B.tech CSE",
+    "Roll No": 10,
+    "Belong": "Sirsa, Haryana, India"
+}
+print("Name:", my_intro["Name"])
+print("Father's Name:", my_intro["Father's Name"])
+print("Roll No:", my_intro["Roll No"])
+print("Class:", my_intro["Class"])
+print("Belong:", my_intro["Belong"])
+
