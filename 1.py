@@ -1,7 +1,7 @@
 print("gjkjl")
 print("vhcgfydtcfgvjbhnj")
 
-'''def sqr(x):
+def sqr(x):
     return x * x
 print(sqr(5))
 
@@ -11,10 +11,10 @@ print(Addition(1, 2, 3, 4))
 
 tup=(2,1,2,3,4,2,6)
 print(tup.count(2))
-print(tup.index(3))'''
+print(tup.index(3))
 
 # dictionary
-'''std={
+std={
   "name":"ritul",
   "age":20,
   "roll":10
@@ -41,7 +41,7 @@ def drive(self):
     print("drive")
 
 my_car=car("Toyoyta","Red")
-my_car.drive()''' 
+my_car.drive() 
 
 # intro using dictionary
 my_intro = {
@@ -57,3 +57,53 @@ print("Roll No:", my_intro["Roll No"])
 print("Class:", my_intro["Class"])
 print("Belong:", my_intro["Belong"])
 
+# Star Pattern
+for i in range(1,5):
+  for j in range(1,5):
+    print("*",end="") 
+  print()  
+
+# star ptrn right side
+for i in range(1,5):
+  for j in range(1,5):
+    if(j<i+1):
+      print("*",end="") 
+    else:
+      print("",end="") 
+  print()
+
+# str ptrn dwn sde
+for i in range(1,5):
+  for j in range(1,5):
+    if(j<=5-i):
+      print("*",end="") #same output
+    else:   
+      print("",end="")    
+  print() 
+
+# st ptrn lft dwn sde
+for i in range(1,5):
+  for j in range(1,5):
+    if(j>=i):
+      print("*",end="") #have same output
+    else:   
+      print("",end="")
+  print() 
+
+# str pttn pyramide 
+for i in range(1,6):
+  for j in range(1,10):
+    if(j>=6-i and j<=4+i):
+      print("*",end="")
+    else:   
+      print(" ",end="")   
+  print()
+
+# str pttn pyramide dwn side
+for i in range(5,0,-1):
+  for j in range(1,10):
+    if(j>=6-i and j<=4+i):
+      print("*",end="")
+    else:   
+      print(" ",end="")   
+  print()  
