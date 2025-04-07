@@ -108,6 +108,13 @@ for i in range(5,0,-1):
       print(" ",end="")   
   print() 
 
+# common prgrm to call fxn thogh object
+class parent:
+    def first(self):
+        print("Hii Ritul")
+obj=parent()
+obj.first()
+
 # oop type single inheritance
 class parent:
     def first(self):
